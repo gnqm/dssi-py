@@ -1,0 +1,1 @@
+{"name": "loan_approval", "metrics": "f1:0.6411974936803028", "version": 2, "registration_date": "2024-06-22T14:29:40.815847", "model": "loan_approval_model_v2.joblib", "features": "loan_approval_features_v2.joblib"}
