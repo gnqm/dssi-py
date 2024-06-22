@@ -13,6 +13,7 @@ st.set_page_config(page_title=apptitle, layout='wide')
 st.title('My First Streamlit Application')
 st.write('Reference: https://docs.streamlit.io/en/stable/api.html#display-data')
 st.balloons() 
+st.snow()
 
 # Load diabetes dataset
 st.subheader('**Diabetes Data**')
@@ -27,7 +28,7 @@ with col1:
 with col2:
     # Plot histogram for age of patients
     fig, ax = plt.subplots(figsize=(6, 3))
-    if 1==0: # Evaluate True to show plot
+    if 1==1: # Evaluate True to show plot
         df['age'].hist(bins = 10, ax=ax)
         fig.suptitle("Age Distribution")
         st.pyplot(fig)
